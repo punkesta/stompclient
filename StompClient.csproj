@@ -16,7 +16,7 @@
         <Description>Simple STOMP client library</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/punkesta/stompclient</RepositoryUrl>
-        <PackageTags>sdk logging unity dotnet</PackageTags>
+        <PackageTags>stomp</PackageTags>
     </PropertyGroup>
     
     <ItemGroup>
