@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>9.0</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Punksoft.StompClient</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Punksoft</Authors>
+        <Company>Punksoft</Company>
+        <Description>Simple STOMP client library</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/punkesta/stompclient</RepositoryUrl>
+        <PackageTags>sdk logging unity dotnet</PackageTags>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Collections.NET" Version="1.13.0"/>
+        <PackageReference Include="Websocket.Client" Version="5.2.0"/>
+    </ItemGroup>
+</Project>
