@@ -165,7 +165,6 @@ namespace Punksoft.StompClient
                 foreach (var entry in httpHeaders)
                 {
                     ws.Options.SetRequestHeader(entry.Key, entry.Value);
-                    Console.WriteLine("Adding HTTP header to request: " + entry);
                 }
                 return ws;
             })
