@@ -6,11 +6,12 @@
         <LangVersion>9.0</LangVersion>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
     <PropertyGroup>
         <PackageId>Punksoft.StompClient</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Authors>Punksoft</Authors>
         <Company>Punksoft</Company>
         <Description>Simple STOMP client library</Description>
